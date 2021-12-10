@@ -73,6 +73,7 @@ button:hover {
 span {
      cursor: pointer;
      font-size: 18px;
+     letter-spacing: 0.5px;
 }
 
 
@@ -93,7 +94,7 @@ span {
      }
 
      span {
-          font-size: 20px;
+          font-size: 17px;
      }
 
      input {
@@ -110,6 +111,7 @@ span {
      .container {
           max-width: 350px;
           padding: 10px;
+          margin-top: 68px;
      }
 
      .tasks {
@@ -119,6 +121,9 @@ span {
      input {
           width: 260px;
           height: 38px;
+     }
 
+     button:hover {
+          color: white;
      }
 }
