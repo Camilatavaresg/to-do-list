@@ -80,3 +80,45 @@ span {
      text-decoration: line-through;
      
 }
+
+@media screen and (max-width:600px) {
+     
+     .container {
+          max-width: 425px;
+          font-size: 19px;
+     }
+
+     .tasks {
+          max-width: 425px;
+     }
+
+     span {
+          font-size: 20px;
+     }
+
+     input {
+          width: 290px;
+          font-size: 18px;
+     }
+
+     button {
+          font-size: 18px;
+     }
+}
+
+@media screen and (max-width:435px) {
+     .container {
+          max-width: 350px;
+          padding: 10px;
+     }
+
+     .tasks {
+          max-width: 350px;
+     }
+
+     input {
+          width: 260px;
+          height: 38px;
+
+     }
+}
